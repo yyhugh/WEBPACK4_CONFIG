@@ -1,0 +1,32 @@
+#app
+{
+    display: flex;
+    height: 200px;
+
+    & > .l
+    {
+        flex: 1 1 auto;
+        background: skyblue url("../imgs/logo.png") no-repeat center;
+    }
+
+    & > .r
+    {
+        flex: 1 1 auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: yellowgreen;
+
+        i
+        {
+            font-size: 30px;
+            color: #242424;
+        }
+
+        img
+        {
+            width: 10%;
+        }
+    }
+}

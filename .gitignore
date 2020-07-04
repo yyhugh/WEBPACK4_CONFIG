@@ -1,0 +1,19 @@
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lock files
+yarn.lock
+package-lock.json
+
+# local env files
+.env
+.env.*
+
+.DS_Store
+.vscode
+
+node_modules
+dist
+public/static/dll
